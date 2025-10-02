@@ -1,4 +1,4 @@
-# s-0-sd-official-technical-blog
+# sosd-official-technical-blog 服务外包与软件设计实验室官方技术博客
 
 网站使用 [vuepress](https://vuepress.vuejs.org/) 和 [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume) 构建生成。
 
