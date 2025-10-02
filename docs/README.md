@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Molihua
-      tagline: SOSD Official Technical Blog
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 福州大学
+      tagline: 服务外包与软件设计实验室官方技术博客
+      text: 我们是一支年轻、充满活力的团队！
       actions:
         -
           theme: brand
@@ -18,5 +18,5 @@ config:
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/Preface-lb/SOSD-Official-Technical-Blog
 ---

@@ -7,9 +7,9 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      name: Fuzhou University
+      tagline: SOSD Official Technical Blog
+      text: We firmly believe that hero continues!
       actions:
         -
           theme: brand
@@ -18,5 +18,5 @@ config:
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/Preface-lb/SOSD-Official-Technical-Blog
 ---
