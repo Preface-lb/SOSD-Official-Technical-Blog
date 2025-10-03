@@ -1,29 +1,50 @@
-import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
+import { defineNoteConfig, defineNotesConfig } from "vuepress-theme-plume";
 
 /* =================== 中文配置 (zh-CN) ======================= */
 
 export const zhNotes = defineNotesConfig({
-  dir: 'notes',
-  link: '/notes/',
+  dir: "notes",
+  link: "/",
   notes: [
     defineNoteConfig({
-      dir: '',
-      link: '/notes/',
-      sidebar: 'auto', // 自动递归生成整个 notes 下的侧边栏
+      dir: "LearningRoute",
+      link: "/LearningRoute/",
+      sidebar: "auto",
+    }),
+
+    defineNoteConfig({
+      dir: "Molihua",
+      link: "/Molihua/",
+      sidebar: "auto",
+    }),
+    defineNoteConfig({
+      dir: "About",
+      link: "/About/",
+      sidebar: "auto",
     }),
   ],
-})
+});
 
 /* =================== 英文配置 (en-US，可选) ======================= */
 
 export const enNotes = defineNotesConfig({
-  dir: 'en/notes',
-  link: '/en/notes/',
+  dir: "en/notes",
+  link: "/en/",
   notes: [
     defineNoteConfig({
-      dir: '',
-      link: '/en/notes/',
-      sidebar: 'auto',
+      dir: "LearningRoute",
+      link: "/LearningRoute/",
+      sidebar: "auto",
+    }),
+    defineNoteConfig({
+      dir: "Molihua",
+      link: "/Molihua/",
+      sidebar: "auto",
+    }),
+    defineNoteConfig({
+      dir: "About",
+      link: "/About/",
+      sidebar: "auto",
     }),
   ],
-})
+});
