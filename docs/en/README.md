@@ -13,8 +13,8 @@ config:
       actions:
         -
           theme: brand
-          text: Blog
-          link: /en/blog/
+          text: Molihua
+          link: /en/Molihua/
         -
           theme: alt
           text: Github →

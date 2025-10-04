@@ -22,6 +22,11 @@ export const zhNotes = defineNotesConfig({
       link: "/About/",
       sidebar: "auto",
     }),
+        defineNoteConfig({
+      dir: "ComputerFundamentals",
+      link: "/ComputerFundamentals/",
+      sidebar: "auto",
+    }),
   ],
 });
 
@@ -44,6 +49,11 @@ export const enNotes = defineNotesConfig({
     defineNoteConfig({
       dir: "About",
       link: "/About/",
+      sidebar: "auto",
+    }),
+        defineNoteConfig({
+      dir: "ComputerFundamentals",
+      link: "/ComputerFundamentals/",
       sidebar: "auto",
     }),
   ],

@@ -13,8 +13,8 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 茉莉花
+          link: /Molihua/
         -
           theme: alt
           text: Github →
