@@ -123,7 +123,7 @@ React Native（RN）是 Facebook 于 2015 年推出的跨平台移动开发框�
 
 ##### 文档依据：
 
- https://gitee.com/react-native-oh-library/docs/blob/master/zh-cn/migration.md#https://gitee.com/link?target=https%3A%2F%2Freactnative.cn%2Fdocs%2Fnew-architecture-intro
+ [ https://gitee.com/react-native-oh-library/docs/blob/master/zh-cn/migration.md#https://gitee.com/link?target=https%3A%2F%2Freactnative.cn%2Fdocs%2Fnew-architecture-intro](https://gitee.com/react-native-oh-library/docs/blob/master/zh-cn/migration.md#https://gitee.com/link?target=https%3A%2F%2Freactnative.cn%2Fdocs%2Fnew-architecture-intro)
 
 ##### 具体方法：
 
@@ -143,23 +143,23 @@ React Native（RN）是 Facebook 于 2015 年推出的跨平台移动开发框�
 
 #### 原生平台代码迁移方法：
 
-https://reactnative.cn/docs/new-architecture-library-ios
+[https://reactnative.cn/docs/new-architecture-library-ios](https://reactnative.cn/docs/new-architecture-library-ios)
 
 ### RNOH 和 JS 第三方库：
 
-https://gitee.com/react-native-oh-library/usage-docs#%E7%AE%80%E4%BB%8B
+[https://gitee.com/react-native-oh-library/usage-docs#%E7%AE%80%E4%BB%8B](https://gitee.com/react-native-oh-library/usage-docs#%E7%AE%80%E4%BB%8B)
 
 这里面是已经有的第三方库，挺全的
 
 ### taro 框架？
 
-https://docs.taro.zone/docs/react-native-harmony
+[https://docs.taro.zone/docs/react-native-harmony](https://docs.taro.zone/docs/react-native-harmony)
 
 
 
 ## 4. 编写原生鸿蒙 RN 项目
 
-https://gitee.com/openharmony-sig/ohos\_react\_native/blob/master/docs/zh-cn/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#%E5%9C%A8%E5%8E%9F%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%AD%E9%9B%86%E6%88%90rnoh
+[https://gitee.com/openharmony-sig/ohos\_react\_native/blob/master/docs/zh-cn/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#%E5%9C%A8%E5%8E%9F%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%AD%E9%9B%86%E6%88%90rnoh](https://gitee.com/openharmony-sig/ohos\_react\_native/blob/master/docs/zh-cn/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA.md#%E5%9C%A8%E5%8E%9F%E7%94%9F%E5%B7%A5%E7%A8%8B%E4%B8%AD%E9%9B%86%E6%88%90rnoh)
 
 
 
@@ -175,7 +175,7 @@ https://gitee.com/openharmony-sig/ohos\_react\_native/blob/master/docs/zh-cn/%E7
 
 #### 2. 查看文档
 
-搜查了官网（https://docs.expo.dev/），论坛（https://forums.expo.dev/），官方在 12 月份表示会适配鸿蒙，但不是重点项目，想来应该是不会适配了，看一下有没有高人在做这件事。
+搜查了官网（[https://docs.expo.dev/](https://docs.expo.dev/)），论坛（[https://forums.expo.dev/](https://forums.expo.dev/)），官方在 12 月份表示会适配鸿蒙，但不是重点项目，想来应该是不会适配了，看一下有没有高人在做这件事。
 
 ...并没有高手在做这件事，我还是看一下 Expo 库是否有平替吧
 
@@ -475,7 +475,7 @@ https://developer.huawei.com/consumer/cn/doc/harmonyos-guides-V5/ide-hvigor-comm
 
 写一份类似的文档，然后在 github 上可以进行编译，这也就是为什么之前要做去 IDE 化
 
-https://github.com/west2-online/fzuhelper-app/blob/master/.github/workflows/build.yml
+[https://github.com/west2-online/fzuhelper-app/blob/master/.github/workflows/build.yml](https://github.com/west2-online/fzuhelper-app/blob/master/.github/workflows/build.yml)
 
 ![](images/image\(2\).png)
 
@@ -483,13 +483,13 @@ https://github.com/west2-online/fzuhelper-app/blob/master/.github/workflows/buil
 
 适配这个库，简单的试一下
 
-fork 下来这个代码（https://github.com/expo/expo/blob/main/packages/expo-router/package.json），然后把其中的名字改为华为提供的，试一下
+fork 下来这个代码（[https://github.com/expo/expo/blob/main/packages/expo-router/package.json](https://github.com/expo/expo/blob/main/packages/expo-router/package.json)），然后把其中的名字改为华为提供的，试一下
 
 ![](images/image\(1\).png)
 
 * 服创：
 
-Webview组件，点击后显示http://localhost:3000/
+Webview组件，点击后显示[http://localhost:3000/](http://localhost:3000/)
 
 ![](images/image.png)
 
@@ -497,3 +497,13 @@ Webview组件，点击后显示http://localhost:3000/
 
 搞一个不可见的 webview，然后做一下 getname（如上图）
 
+## 贡献者
+
+<div class="contributors-list" style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+  <!-- 贡献者 1 -->    
+  <div style="text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/165021503?v=4" alt="李佳亮" style="width: 80px; border-radius: 50%;" />
+    <p style="margin-top: 8px;"><a href="https://github.com/LucaAnd2024?tab=repositories" target="_blank">李佳亮</a></p>
+  </div>
+
+</div>

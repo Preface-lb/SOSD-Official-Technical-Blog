@@ -242,4 +242,13 @@ F[沟通协调] -->|资源整合| B/C
 
 
 
+## 贡献者
 
+<div class="contributors-list" style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+    <!-- 贡献者 2 -->    
+  <div style="text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/150106837?v=4" alt="雷茜媛" style="width: 80px; border-radius: 50%;" />
+    <p style="margin-top: 8px;"><a href="https://github.com/Rebeccaxy" target="_blank">雷茜媛</a></p>
+  </div>
+
+</div>

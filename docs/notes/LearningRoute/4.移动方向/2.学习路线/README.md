@@ -22,3 +22,15 @@ permalink: /LearningRoute/tt1d3s0f/
 
 
 如果你认为这样你没法学习，那么现在退出还来得及～
+
+---
+## 贡献者
+
+<div class="contributors-list" style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+  <!-- 贡献者 1 -->    
+  <div style="text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/79366817?v=4" alt="孙金哲" style="width: 80px; border-radius: 50%;" />
+    <p style="margin-top: 8px;"><a href="https://github.com/muxia23" target="_blank">孙金哲</a></p>
+  </div>
+
+</div>
