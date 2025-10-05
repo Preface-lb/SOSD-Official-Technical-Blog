@@ -1,17 +1,7 @@
-/**
- * 查看以下文档了解主题配置
- * - @see https://theme-plume.vuejs.press/config/intro/ 配置说明
- * - @see https://theme-plume.vuejs.press/config/theme/ 主题配置项
- *
- * 请注意，对此文件的修改都会重启 vuepress 服务。
- * 部分配置项的更新没有必要重启 vuepress 服务，建议请在 `.vuepress/config.ts` 文件中配置
- *
- * 特别的，请不要在两个配置文件中重复配置相同的项，当前文件的配置项会被覆盖
- */
-
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
+import path from "path";
 
 export default defineUserConfig({
   base: '/',
@@ -34,9 +24,20 @@ export default defineUserConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/SOSD.png' }],
   ],
 
-  bundler: viteBundler(),
+  // 将vite配置移到bundler选项中
+  bundler: viteBundler({
+    viteOptions: {
+      server: {
+        allowedHosts: [
+          'henry-study.natapp1.cc',
+          'localhost',
+          '192.168.10.147'
+        ]
+      }
+    }
+  }),
+  
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
-
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -123,7 +124,7 @@ export default defineUserConfig({
     markdown: {
       abbr: true,         // 启用 abbr 语法  *[label]: content
       annotation: true,   // 启用 annotation 语法  [+label]: content
-      // pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)（依赖缺失，暂注释）
+      pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       plot: true,         // 启用隐秘文本语法 !!xxxx!!
       // bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)（依赖缺失，暂注释）
       // youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)（依赖缺失，暂注释）
@@ -157,7 +158,15 @@ export default defineUserConfig({
         mark: true,       // 启用图片标记
         size: true,       // 启用图片大小
       },
-      include: false,      // 在 Markdown 文件中导入其他 markdown 文件内容
+      include: {
+        resolvePath: (file) => {
+          if (file.startsWith('@src'))
+            return file.replace('@src', path.resolve(__dirname, '..'))
+
+          return file
+        },
+      },
+
       imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     },
 
@@ -197,4 +206,3 @@ export default defineUserConfig({
     // encrypt: {},
   }),
 })
-
