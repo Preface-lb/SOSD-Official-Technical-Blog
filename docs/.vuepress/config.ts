@@ -136,20 +136,21 @@ export default defineUserConfig({
       // codeSandbox: true,  // 启用嵌入 codeSandbox 语法 @[codeSandbox](id)（依赖缺失，暂注释）
       // jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)（依赖缺失，暂注释）
       // npmTo: true,        // 启用 npm-to 容器  ::: npm-to（依赖缺失，暂注释）
-      // demo: true,         // 启用 demo 容器  ::: demo（依赖缺失，暂注释）
-      // repl: {             // 启用 代码演示容器（依赖 pyodide 等，暂注释）
-      //   go: true,         // ::: go-repl
-      //   rust: true,       // ::: rust-repl
-      //   kotlin: true,     // ::: kotlin-repl
-      //   python: true,     // ::: python-repl
-      // },
-      // math: {             // 启用数学公式（依赖 katex，暂注释）
-      //   type: 'katex',
-      // },
-      // chartjs: true,      // 启用 chart.js（依赖缺失，暂注释）
-      // echarts: true,      // 启用 ECharts（依赖缺失，暂注释）
-      // mermaid: true,      // 启用 mermaid（依赖缺失，暂注释）
-      // flowchart: true,    // 启用 flowchart（依赖缺失，暂注释）
+      demo: true,  
+      repl: {             // 启用 代码演示容器
+        go: true,         // ::: go-repl
+        rust: true,       // ::: rust-repl
+        kotlin: true,     // ::: kotlin-repl
+        python: true,     // ::: python-repl
+      },
+      math: {             // 启用数学公式
+        type: 'katex',
+      },
+      chartjs: true,      
+      echarts: true,
+      mermaid: true,
+      flowchart: true,
+      markmap: true, 
       image: {
         figure: true,     // 启用 figure
         lazyload: true,   // 启用图片懒加载
