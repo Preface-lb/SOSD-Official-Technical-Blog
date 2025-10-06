@@ -51,7 +51,7 @@ export default defineUserConfig({
     /* 页内信息 */
     // editLink: true,
     // lastUpdated: true,
-    // contributors: true,
+    contributors: false,
     // changelog: false,
 
     /**
